@@ -26,6 +26,10 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 a:link {
     color: white;
     background-color: black;
