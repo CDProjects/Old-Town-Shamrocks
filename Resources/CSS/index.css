@@ -15,16 +15,14 @@ body {
     position: fixed;
     text-align: center;
     width: 100%;
+    background: #000;
+    z-index: 1;
 }
 
 .nav-top li {
     display: inline-block;
     width: 130px;
     font-weight: bold;
-    color: white;
-}
-
-a {
     color: white;
 }
 
@@ -53,14 +51,22 @@ img {
     bottom: 33px;
     width: 160px;
     height: auto;
-    padding-top: 50px;
+    margin-top: 50px;
+    z-index: 0;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    right: 4px;
+    z-index: 0;
 }
 
 .club {
-    position: relative;
-    bottom: 74px;
     display: inline-block;
-    padding-left: 10px;
+    position: relative;
+    bottom: 176px;
+    left: 180px;
 }
 
 h3 {
@@ -70,14 +76,62 @@ h3 {
 
 .summary {
     position: relative;
-    top: 150px;
+    top: 0px;
     width: 100%;
     height: 363.6px;
     margin: auto;
 }
 
 .weareshamrocks {
+    position: relative;
+    right: 5px;
     font-weight: 500;
     font-style: normal;
-    font-size: 65px;
+    font-size: 60px;
+    width: auto;
 }
+
+.founded {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+}
+
+.button-container {
+    position: relative;
+    bottom: 180px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    background-color: seagreen; 
+    color: black; 
+    border: 2px solid seagreen;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: seagreen;
+  }
+
+  #slider {
+    position: relative;
+    width: 500px;
+    height: 265px;
+  
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
