@@ -76,12 +76,18 @@ a:active {
     display: inline-block;
     position: relative;
     bottom: 176px;
-    left: 180px;
+    left: 170px;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: Verdana;
 }
 
 h3 {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+    font-weight: normal;
 }
 
 .summary {
