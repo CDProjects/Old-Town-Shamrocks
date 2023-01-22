@@ -28,6 +28,8 @@ body {
 
 a {
     color: white;
+    background-color: black;
+    text-decoration: none;
 }
 
 a:link {
