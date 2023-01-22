@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
 </head>
 <body>
+
   <div class="nav" style="left: 0px;margin-top: 0px;top: 0px;">
     <ul class="nav-top" style="padding-left: 0px;">
         <li><a href="#home" style="text-decoration: none;">HOME</a></li>
@@ -23,30 +24,94 @@
         <li><a href="#contact" target="_blank">CONTACT</a></li>
     </ul>
   </div>
+
   <div class="logo">
-      <img src="https://lh3.googleusercontent.com/pUYNsxfS_4xdHagoBAUBBq04obhygvmqqkpSM9duVIrTPV4Wq2FN4ak77OZGU1A0SZ5QXQ_EAuYyVaDHKJOT2EGPVemIVYkr_8Y6hALUHbggohTxjkJuCDJD9xKhxWi-UepVJG47=w2400" 
+      <img class="ots" src="https://lh3.googleusercontent.com/pUYNsxfS_4xdHagoBAUBBq04obhygvmqqkpSM9duVIrTPV4Wq2FN4ak77OZGU1A0SZ5QXQ_EAuYyVaDHKJOT2EGPVemIVYkr_8Y6hALUHbggohTxjkJuCDJD9xKhxWi-UepVJG47=w2400" 
        alt="Old Town Shamrocks Logo">
     </div>
+
   <div class="club">
     <h1><a href="#home" style="text-decoration: none;">Old Town Shamrocks</a></h1>
       <h3>Porvoo Rugby Club</h3>
   </div>
+
   <div class="summary">
     <h1 class="weareshamrocks">#weareshamrocks</h1>
     <p class="founded">Founded in 2011, the Old Town Shamrocks continue to strive <br>for Championship glory in 2023.</p>
   </div>
+
   <div class="button-container">
     <button class="button button1">MORE ABOUT US</button>
   </div>
+
+
   <div id="slider">
-    <ul id="slide-wrap">
-      <li><img src="https://lh3.googleusercontent.com/Qb1Hd8rvSX0Cvewp0XrfQOj5TlVsJ9eecpg6KMolaRYQo6FS2HRNe9qMLZA_L4TDcRwzhCRcmROf4jNUAMJ_OgqckOUMAmOpsDLFyreqSVxOba8rNJTbdS6vK3aT6VguZhIYQgir=w2400" alt=""></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
+    <div class="slides">
+      <img class="Samu" src="https://lh3.googleusercontent.com/2IuLpORtMK7CRg7y494bgyz3EAZMfONHjjUCYCSj_xxqZjiFkJ0Z1L0ArHNgY67o2MCEYFeWGjHdCeu2vtNA1UfMCbUExTPh5Ehbm6jZ1Zgy2cyy7M1nHr_jar0fcJB724O23Tg2=w2400">
+    </div>
+
+    <div class="slides">
+      <img class="Juuso" src="https://lh3.googleusercontent.com/VqhxAdfqx3602BJtyoQ43kvcJL0mDhu3O3Y92vXegM7j1rGGORUiecKGZzml6cemwaK5GbRAYkvDs9nUHa5No5jxW8l_PGk9wGDHgGwFgVgvGOj_BvFawq1yRs_YkEYIFZFXzWAJ=w2400">
+    </div>
+
+    <div class="slides">
+      <img class="Casey" src="https://lh3.googleusercontent.com/HSw69E-3VyxwYuPfaMzQ_HZ76pc9qRtG11msz7HbL1j3yczNTWF3QnOL7UhMf4yB8vW84ThRsY5712sl3uBFyWm4gy-1VTquCCQfHSGt_GiYt3YNG0p6nEEhlUUQ4-HPMxGuv6CL=w2400">
+    </div>
+
+    <div class="slides">
+      <img class="Jaska" src="https://lh3.googleusercontent.com/M1okXObg8qzRYnXi-ql7vb45TXHF8ohzTvzvRX0fS_RizH7Th_6q9MNcfPSW9l14tVxcFakl_2BSyfPvuCaN8Cgs6_6aRuk286NbVeUhMhGZDGXC6xzTzs-ypUh6f6tZojcoRDQR=w2400">
+    </div>
+
+    <div class="slides">
+      <img class="Stefan"src="https://lh3.googleusercontent.com/9yrBv2_AZLwSwEfaK2P0Fi-qlegaUVMqsCIj_BKVZTcs387lmLHqjAU7FIorW2xtfHAnpApMAeW8CAG0qyrzenIlaK6-bOQeLz7OK99_vF1aST1ZpqpU_ox8Dv4dyZpIXXL2pJTD=w2400">
+    </div>
+
+    <div class="slides">
+      <img class="Akseli" src="https://lh3.googleusercontent.com/LnLJ2F9rpRv3POlEr1yPCxWCKJzcAqnjUAJRnong6ny5CyaofhBHvkmfWRyDKFUlArw4-zPgrF9bitoFWKL0thb-wsJ3c_WkKFcf4KEOy-73mUOLyqO0eUZSkZntIaB6Y2W3UPAA=w2400">
+    </div>
+
+    <div id="dot">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+    <script>
+      var index = 0;
+      var slides = document.querySelectorAll(".slides");
+      var dot = document.querySelectorAll(".dot");
+
+      function changeSlide(){
+
+      if(index<0){
+        index = slides.length-1;
+    }
+  
+      if(index>slides.length-1){
+        index = 0;
+    }
+  
+      for(let i=0;i<slides.length;i++){
+        slides[i].style.display = "none";
+        dot[i].classList.remove("active");
+    }
+  
+      slides[index].style.display= "block";
+      dot[index].classList.add("active");
+  
+      index++;
+  
+      setTimeout(changeSlide,2000);
+  
+    }
+
+      changeSlide();   
+    </script>
+    
 </body>
 </html>
 </div>
