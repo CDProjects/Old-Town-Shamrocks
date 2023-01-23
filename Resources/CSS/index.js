@@ -1,3 +1,5 @@
+
+
 /* Javascript for slider show */
 
 var index = 0;
