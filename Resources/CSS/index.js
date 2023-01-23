@@ -1,3 +1,5 @@
+/* Javascript for slider show */
+
 var index = 0;
 var slides = document.querySelectorAll(".slides");
 var dot = document.querySelectorAll(".dot");
