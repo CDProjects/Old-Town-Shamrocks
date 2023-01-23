@@ -11,50 +11,6 @@ body {
     font-family: Verdana,sans-serif; 
 }
 
-.nav {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    background: #000;
-    z-index: 1;
-}
-
-.nav-top li {
-    display: inline-block;
-    width: 130px;
-    font-weight: bold;
-    color: white;
-}
-
-a {
-    color: white;
-    background-color: black;
-    text-decoration: none!important;
-}
-
-a:link {
-    color: white;
-    background-color: black;
-    text-decoration: none!important;
-}
-
-a:visited {
-    color: white;
-    background-color: black;
-    text-decoration: none!important;
-}   
-
-a:hover {
-    color: seagreen;
-    background-color: black;
-    text-decoration: none!important;
-}
-
-a:active {
-    color: seagreen;
-    background-color: #000;
-    text-decoration: none!important;
-}
 
 .ots {
     position: relative;
